@@ -166,7 +166,7 @@ jobs:
         echo "release_tag=$(date +"%Y.%m.%d-%H%M-immortalwrt24.10-6.6-CMCC_RAX3000M")" >> $GITHUB_OUTPUT
         touch release.txt
         echo "RAX3000M-无线桥接用固件" >> release.txt
-        echo "自用精简轻量固件，添加中继桥" >> release.txt
+        echo "自用精简轻量固件，添加中继桥。" >> release.txt
         echo "后台：192.168.6.1" >> release.txt
         echo "账号：root" >> release.txt
         echo "密码：无" >> release.txt
